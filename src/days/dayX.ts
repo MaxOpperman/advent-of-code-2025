@@ -1,7 +1,7 @@
 import { readInput, parseLines, readTestInput } from '../utils/helpers';
 
 // Main execution
-const day = 1;
+const day = 0;
 const input = readInput(day);
 
 function part1(input: string): number {
