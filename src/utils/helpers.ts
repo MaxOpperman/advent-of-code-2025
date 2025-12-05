@@ -93,5 +93,5 @@ export function range(start: number, end: number): number[] {
  * Modulo operation that handles negative numbers correctly
  */
 export function modulo(n: number, m: number): number {
-  return (n + m) % m;
+  return ((n % m) + m) % m;
 }
